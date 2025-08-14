@@ -19,7 +19,6 @@
     color: var(--branco);
 }
 
-
 .texto {
     display: flex;
     flex-wrap: nowrap;

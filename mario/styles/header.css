@@ -13,12 +13,10 @@
     background-color: var(--azul-header);
 }
 
-
 a {
     color: blue;
     text-shadow: 0.1em 0.1em 0.2em red;
 }
-
 
 @media screen and (max-width: 414px){
     .container__titulo {

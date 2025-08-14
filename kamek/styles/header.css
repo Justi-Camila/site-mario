@@ -13,7 +13,6 @@
     background-color: var(--azul-header);
 }
 
-
 @media screen and (max-width: 414px){
     .container__titulo {
         font-size: 40px;
