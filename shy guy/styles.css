@@ -1,0 +1,28 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/desenvolvimento.css");
+@import url("styles/desenvolvido.css");
+@import url("styles/lancamento.css");
+@import url("styles/carrossel.css");
+@import url("styles/rodapé.css");
+
+:root {
+--fonte-principal: "Merriweather";
+--branco: #cccbcb;
+--preto: #000000;
+--cinza: #474646;
+--cinza-claro: #c5c2c2;
+--vermelho: #EC0000;
+--verde: #40B42B;
+--fonte-secundaria: "Caprasimo";
+--azul: #040736; 
+--azul-header: #02006e; 
+--azul-escuro: #0a0620;
+
+}
+
+body {
+    background-color: var(--cinza-claro);
+}
+
+

@@ -1,0 +1,36 @@
+.lancamento {
+    background-color: var(--azul-escuro);
+}
+
+.lancado {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2em 0;
+    color: var(--branco);
+}
+
+.texto__desenvolvimento-tres {
+    padding: 1em;
+    font-family: var(--fonte-principal);
+    text-indent: 2em;
+}
+
+hr {
+    margin: 0;
+}
+
+.imagem__luigi {
+    width: 500px;
+    height: 400px;
+}
+
+@media screen and (max-width: 912px) {
+    .lancado {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+}

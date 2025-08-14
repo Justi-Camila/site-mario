@@ -1,0 +1,42 @@
+.introdução {
+    font-family: var(--fonte-principal);
+    text-indent: 2em;
+    padding: 0.3em 1em 0 0;
+    color: var(--branco);
+    line-height: 1.6;
+
+}
+
+.banner {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.5em 0 2em 1em;
+    background-color: var(--azul);
+
+}
+
+.lista {
+    list-style: none;
+}
+
+.banner__logo {
+    width: 180px;
+    padding: 0 1em 0 1em;
+}
+
+@media screen and (max-width: 912px) {
+    .banner {
+     flex-direction: column-reverse;
+    }
+ }
+
+ @media screen and (max-width: 1024px) {
+    .banner {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+ }

@@ -1,0 +1,29 @@
+.container__titulo {
+    font-family: var(--fonte-secundaria);
+    font-weight: 200;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    height: 100px;
+    padding: 1.5em 0 0 0;
+    text-shadow: 0.1em 0.1em 0.2em rgb(214, 20, 240);
+    }
+
+.container {
+    background-color: var(--azul-header);
+}
+
+
+
+
+@media screen and (max-width: 414px){
+    .container__titulo {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .container__titulo {
+        font-size: 30px;
+    }
+}

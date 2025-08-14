@@ -1,0 +1,84 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/desenvolvimento.css");
+@import url("styles/desenvolvido.css");
+@import url("styles/lancamento.css");
+@import url("styles/carrossel.css");
+@import url("styles/rodapé.css");
+
+:root {
+--fonte-principal: "Merriweather";
+--branco: #cccbcb;
+--preto: #000000;
+--cinza: #474646;
+--cinza-claro: #c5c2c2;
+--vermelho: #EC0000;
+--verde: #40B42B;
+--fonte-secundaria: "Caprasimo";
+--azul: #040736; 
+--azul-header: #02006e; 
+--azul-escuro: #0a0620;
+
+}
+
+body {
+    background-color: var(--cinza-claro);
+}
+
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+
+table {
+  width: 100%;
+  max-width: 400px;
+  height: 100px;
+  margin: 0 auto;
+  overflow-x: auto;
+  border-spacing: 0;
+}
+
+@media screen and (max-width: 911px) {
+  table,
+  th,
+  td {
+    border: 1px solid;
+    display: none;
+  }
+  }
+
+tbody {
+  white-space: nowrap;
+}
+
+th,
+td {
+  padding: 5px 10px;
+  border-top-width: 0;
+  border-left-width: 0;
+  background: var(--branco);
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+
+th:last-child,
+td:last-child {
+  border-right-width: 0;
+}
+
+tr:last-child td {
+  border-bottom-width: 0;
+}
+
+.pauta {
+  background-color: var(--azul-escuro);
+  padding: 1.5em 1.5em;
+}

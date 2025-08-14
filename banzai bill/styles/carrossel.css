@@ -1,0 +1,172 @@
+.carrossel__titulo {
+    color: var(--verde);
+    background-color: var(--azul); 
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 2em 0 1em 0;
+    text-shadow: 0.1em 0.1em 0.2em red;
+}
+
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+
+.botões {
+    display: flex;
+}
+
+
+.botões__ancora:active {
+    background-color: pink;
+    }
+
+    .botões__ancora:hover {
+        color: red;
+    }
+
+.descrição__titulo {
+    color: var(--vermelho);
+    font-weight: 700;
+}
+
+.descrição__titulo-livro {
+    color: var(--verde);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descrição__texto {
+    font-size: 14px;
+}
+
+.botões__item {
+    margin: 0 0.5em;
+}
+
+.botões__ancora {
+    background-color: var(--verde);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.carousel-item {
+    background-color: var(--azul);
+    text-align: center;
+    color: aliceblue;
+    padding: 0 0 2.5em 0;
+}
+
+.carrossel__container {
+    background-color: var(--azul);
+}
+
+
+hr {
+    margin: 0;
+}
+
+
+.carrousel__boom {
+    height: 390px;
+}
+
+
+.carrousel__lemmy {
+    height: 390px;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 30px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+    .botões__ancora:active {
+        background-color: pink;
+        }
+    
+        .botões__ancora:hover {
+            color: var(--vermelho);
+        }
+
+}
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+        align-items: center;
+        padding: 0 0 1em 0;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .descrição__titulo {
+        font-size: 32px;
+    }
+
+    .descrição__texto {
+        font-size: 16px;
+    }
+
+    .descrição {
+        margin-right: 2em;
+    }
+
+
+
+    .botões__ancora:active {
+        background-color: pink;
+        }
+    
+        .botões__ancora:hover {
+            color: var(--vermelho);
+        }
+
+}
+
+@media screen and (max-width: 412px) {
+    .carrousel__boom {
+        height: 150px;
+    }
+
+    .carrousel__lemmy {
+        height: 150px;
+    }
+}

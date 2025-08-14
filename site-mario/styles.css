@@ -1,0 +1,29 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #527cd1;
+    --branco: #FFFFFF;
+    --roxo: #7240cf;
+    --fonte-principal: "Lobster";
+    --azul: #040736;
+    --fonte-secundaria: "Assistant";
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+    --vermelho: #EC0000;
+    --verde: #40B42B;
+    --azul-header: #02014e; 
+    --azul-escuro: #0a0620; 
+}
+
+body {
+    background-color: var(--azul-escuro);
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    font-weight: 400;
+}

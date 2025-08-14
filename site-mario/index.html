@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARIO</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,700&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,700&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Jogos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Nintendo Switch</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Novidades e Eventos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Assistência</a>
+                </li>
+            </ul>
+            <img src="img/logo2.png" alt="Logo da Nintendo" class="container__imagem-logo">
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Jogos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Nintendo Switch</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Novidades e Eventos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Assistência</a>
+                </li>
+            </ul>
+
+            <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+            <li class="opções__item"><a href="#" class="opções__link">Meus jogos</a></li>
+        </ul>
+
+        <h1 class="container__titulo">Mario</h1>
+
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente" aria-label="Meus favoritos">
+            </a>
+
+            <a href="#" class="container__link" aria-label="Lista de desejos">
+                <img src="img/Sacola.png" alt="Carrinhos de compras" class="container__imagem">
+                <p class="container__texto">Lista de desejos</p>
+            </a>
+
+            <a href="#" class="container__link">
+                <img src="img/Usuario (1).png" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Perfeito para quem gosta de jogar</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será seu proximo jogo?">
+    </section>
+    
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Jogos</h2>
+        <div class="carrossel__container">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide"><a href="/mario.world/index.html"><img src="img/marioword.jpg" alt="Mario word" class="carrousel__boom"></a>
+                        <div class="carousel-item">
+                            <h5>Super Mario World</h5>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide"><a href="/mariobrossu/index.html"><img src="img/mario.bross.u.jpg" alt="Mario bross u" class="carrousel__boom"></a>
+                        <div class="carousel-item">
+                            <h5>New Super Mario Bros U</h5>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide"><a href="/mariowii/index.html"><img src="img/mario.wii.png" alt="Mario wii" class="carrousel__boom"></a>
+                        <div class="carousel-item">
+                            <h5>Super Mario Bros Wii</h5>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide"><a href="/marioparty/index.html"><img src="img/mario.part.jpg" alt="Mario part" class="carrousel__boom"></a>
+                        <div class="carousel-item">
+                            <h5> Super Mario Party</h5>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide"><a href="/mario3dworld/index.html"><img src="img/mario3d.jpg" alt="Mario 3d" class="carrousel__boom"></a>
+                        <div class="carousel-item">
+                            <h5>Super Mario 3D World</h5>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide"><a href="/mariogalaxy/index.html"><img src="img/mario.galaxy.png" alt="Mario galaxy" class="carrousel__boom"></a>
+                        <div class="carousel-item">
+                            <h5>Super Mario Galaxy 2</h5>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide"><a href="/mariokart/index.html"><img src="img/mario.deluxe.jpg" alt="Mario deluxe" class="carrousel__boom"></a>
+                        <div class="carousel-item">
+                            <h5>Super Mario Deluxe</h5>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide"><a href="/mariodyssey/index.html"><img src="img/mario,odyssey.jpg" alt="Mario odyssey" class="carrousel__boom"></a>
+                        <div class="carousel-item">
+                            <h5>Super Mario Odyssey</h5>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide"><a href="/marioyoshi/index.html"><img src="img/mario.yoshi.png" alt="Mario yoshi island" class="carrousel__boom"></a>
+                        <div class="carousel-item">
+                            <h5>Super Mario World 2: Yoshi Island</h5>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide"><a href="/mariomaker/index.html"><img src="img/Mariomaker2.jpg" alt="Mario maker2" class="carrousel__boom"></a>
+                        <div class="carousel-item">
+                            <h5>Super Mario Maker 2</h5>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide"><a href="/mariobros3/index.html"><img src="img/Super_Mario_Bros._3_.png" alt="Mario Bross3" class="carrousel__boom"></a>
+                        <div class="carousel-item">
+                            <h5>Super Mario Bross 3</h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descrição__titulo-livro">Legend of Zelda: Tears of the Kingdom</h2>
+                        <p class="descrição__texto"> Sequência de The Legend of Zelda: Breath of the Wild</p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/zelda.jpeg" class="descrição__imagem">
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <li class="botões__item"><a href="#"><img src="img/Favoritos.svg" alt="Favoritar livro"></a></li>
+                        <li class="botões__item"><a href="#"><img src="img/Sacola.png" alt="Adicionar no carrinho de compras"></a></li>
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="#" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Personagens</h2>
+        <div class="carrossel__container">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide"><a href="/mario/index.html">
+                            <img src="img/mario.jpg" alt="Foto do mario" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Mario</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="/luigi/index.html">
+                            <img src="img/luigi.png" alt="Foto do luigui" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Luigi</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="/peach/index.html">
+                            <img src="img/peach.png" alt="Foto da peach" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Peach</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="/rosalina/index.html">
+                            <img src="img/rosalina.png" alt="Foto da rosalina" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Rosalina</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="/yoshi/index.html">
+                            <img src="img/yoshi.png" alt="Foto do yoshi" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Yoshi</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="/toad/index.html">
+                            <img src="img/toad.webp" alt="Foto do toad" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Toad</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="/toadette/index.html">
+                            <img src="img/toadette.png" alt="Foto da toadette" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Toadette</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="/bowser/index.html">
+                            <img src="img/Bowser.webp" alt="Foto do bowser" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Bowser</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="/bowser.jr/index.html">
+                            <img src="img/bowserjr.webp" alt="Foto do bowserjr" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Bowser Jr</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="/waluigi/index.html">
+                            <img src="img/waluigi.png" alt="Foto do waluigi" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Waluigui</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="/wario/index.html">
+                            <img src="img/wario.png" alt="Foto do wario" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Mario</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="/chain chomp/index.html">
+                            <img src="img/chainchomp.webp" alt="Foto do chainchomp" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Chain Chomp</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="/rei boo/index.html">
+                            <img src="img/reibu.webp" alt="Foto do rei bu" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Rei Boo</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="/shy guy/index.html">
+                            <img src="img/shy guy.webp" alt="Foto do shy guy" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Shy Guy</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="/banzai bill/index.html">
+                            <img src="img/BanzaiBill.webp" alt="Foto do BanzaiBill" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Banzai Bill</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="/hammer bro/index.html">
+                            <img src="img/Hammer_Bro.webp" alt="Foto do Hammer_Bro" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Hammer Bro</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="/kamek/index.html">
+                            <img src="img/kamek.webp" alt="Foto do kamek" class="carrousel__boom">
+                            <div class="carousel-item">
+                                <h5>Kamek</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+    <hr />
+
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de jogos, promoções e novidades!</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr />
+
+    <footer class="rodape__copy">
+        <div class="rodapé__capcom">
+            <h2 class="rodapé__titulo-segundo">Feito para estudos</h2>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+        });
+    </script>
+</body>
+
+</html>

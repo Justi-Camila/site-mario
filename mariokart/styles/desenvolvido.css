@@ -1,0 +1,31 @@
+.desenvolvido {
+    background-color: var(--azul-escuro);
+}
+
+.texto__desenvolvimento-dois {
+    font-family: var(--fonte-principal);
+    text-indent: 2em;
+    color: var(--branco);
+}
+
+.trecho {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2em 0;
+}
+
+hr {
+    margin: 0;
+}
+
+
+@media screen and (max-width: 912px) {
+    .trecho {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+}
